@@ -1,5 +1,6 @@
 import About from "./components/About";
 import CarVideo from "./components/CarVideo";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Inventory from "./components/Inventory";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
      <About />
      <Repair />
      <Inventory />
+     <Contact />
     </>
   );
 }
