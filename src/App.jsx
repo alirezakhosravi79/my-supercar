@@ -1,6 +1,7 @@
 import About from "./components/About";
 import CarVideo from "./components/CarVideo";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Inventory from "./components/Inventory";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
      <Repair />
      <Inventory />
      <Contact />
+     <Footer />
     </>
   );
 }

@@ -1,16 +1,17 @@
+import { Menu } from "lucide-react";
 import Logo from "../assets/logo.png";
 
 function Navbar() {
   return (
     <div className="bg-slate-100 py-1">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center px-5 lg:px-0">
           {/* logo */}
           <div>
             <img src={Logo} alt="" className="w-24" />
           </div>
           {/* nav */}
-          <ul className="flex gap-6 items-center">
+          <ul className="lg:flex gap-6 items-center hidden">
             <li className="hover:text-red-500 cursor-pointer transition-all">
               Home
             </li>
@@ -27,6 +28,7 @@ function Navbar() {
               Book a Test Drive
             </button>
           </ul>
+          <Menu className="lg:hidden" />
         </div>
       </div>
     </div>
